@@ -1,10 +1,11 @@
 /* components/address.wxss */
 .addressBox{
-  position: fixed;
+  position: relative;
   left:0rpx;
   top:0rpx;
-  padding:0rpx 20rpx 20rpx 20rpx;
+  padding:0rpx 19rpx 19rpx 19rpx;
   background: #fff;
+  
 }
 .shopName{
   margin-bottom:10rpx;

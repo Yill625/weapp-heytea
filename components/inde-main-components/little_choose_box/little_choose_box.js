@@ -24,6 +24,8 @@ Component({
    */
   methods: {
      choose(e){
+       console.log(e);
+       console.log('点击选规格');
       this.triggerEvent('delivery_choose', e);
     },
   }

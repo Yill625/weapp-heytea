@@ -21,14 +21,15 @@ Component({
    */
   methods: {
     send_choosed(e){
-      console.log('sucess');
-      // let choosed_name = e.detail.dataset.choosed_name;
-      // let choosed = e.detail.dataset.choosed;
-      // let choosed_data={
-      //   choosed_name,
-      //   choosed
-      // }
-      // this.triggerEvent('choosedEvent', choosed_data);
+      console.log(e);
+      let choosed_name = e.target.dataset.choosed_name;
+      let choosed = 'true';
+      let choosed_data={
+        choosed_name,
+        choosed
+      }
+      console.log(choosed_data);
+      this.triggerEvent('choosedEvent', choosed_data);
     }
   }
 })

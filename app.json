@@ -8,7 +8,9 @@
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "喜茶GO",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle":"black",
+      "enablePullDownRefresh": false,
+      "disableScroll": true
   },
   "tabBar": {
     "list": [

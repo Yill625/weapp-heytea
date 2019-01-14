@@ -13,10 +13,10 @@
 }
 .menu-list{
   width:180rpx;
-  padding:20rpx 30rpx 20rpx 20rpx;
-  font-size:30rpx;
-  background: #eef;
-  border-left:10rpx solid #eef;  
+  padding:20rpx 35rpx 20rpx 15rpx;
+  font-size:27rpx;
+  background: rgb(250, 250, 250);
+  border-left:10rpx solid rgb(236, 236, 240);  
   box-sizing: border-box;
 }
 .productBox{

@@ -8,7 +8,8 @@ Page({
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo'),
     datalist: datalist,
-    heightArr:[]
+    heightArr:[],
+    disableScroll:true
   },
   //事件处理函数
   bindViewTap: function() {

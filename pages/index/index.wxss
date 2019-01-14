@@ -7,7 +7,9 @@
 }
 .address{
   height: 10vh;
+  box-shadow: 0 1rpx 20rpx rgb(246, 247, 247);
 }
 #index-main{
   height: 90vh;
+  margin-top: 6rpx;
 }
