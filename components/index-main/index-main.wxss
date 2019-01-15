@@ -48,6 +48,7 @@
   box-sizing: border-box;
 }
 .imgBox{
+  margin-left: -20rpx;
   margin-top:40rpx;
   width: 30%;
   height: 130rpx;
@@ -94,6 +95,13 @@
   display: block;
   font-size:24rpx;
   color:#aaa;
+}
+.banner{
+  width: 540rpx;
+  height: 320rpx;
+  margin-left: 3vw;
+  border-radius: 3rpx;
+
 }
 
 
