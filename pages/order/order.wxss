@@ -26,7 +26,7 @@
 }
 
 .text{
-  top: 30vh;
+  top: 20vh;
   margin: 0 auto;
   width: 400rpx;
   font-size: 26rpx;
@@ -36,4 +36,10 @@
   align-items: center;
   position: relative;
   color: rgb(199, 197, 197);
+}
+.gitimg
+{
+  width: 200rpx;
+  height: 200rpx;
+  margin-bottom: 20rpx;
 }

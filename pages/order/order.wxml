@@ -2,6 +2,7 @@
 <view class="container">
   <view class='noOrder'>
     <view class='text'>
+      <image src='https://go.cdn.heytea.com/storage/2018/10/23/yaTa0vp6p2tt3xslWjzwSoXbae2Mp9I00lPGGS3V.gif' class='gitimg'></image>
       <view class='text_content'>您今天还没有下单</view>
       <view class='text_content'>快去选一杯喜欢的茶吧</view>
     </view>
