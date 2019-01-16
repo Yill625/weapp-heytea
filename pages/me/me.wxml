@@ -6,7 +6,7 @@
       <view class="name">Ivan</view>
       <view class="level">Lv2</view>
       <view class="title">白银会员</view>
-      <view class="experience">还差9经验升级下一级111111 ></view>
+      <view class="experience">还差93232经验升级到下一级 ></view>
   </view>
 
     <view class="quantity">
@@ -19,7 +19,7 @@
     </view>
 
 </view>
-<image src='http://liangblog.oss-cn-hangzhou.aliyuncs.com/2019/01/d13cc048707e64795485842f4c603a03-1.png' class='ad_banner'></image>
+<image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1547654258445&di=c0659d2ae76fcc7a31b8845bd7b24c7b&imgtype=0&src=http%3A%2F%2Fpic42.photophoto.cn%2F20170314%2F0470102533396103_b.jpg' class='ad_banner'></image>
 
 <view class="star stars">
   <view class='integral' style='padding-left:50rpx;'><image src='../../icons/星球.png'></image></view>
@@ -30,15 +30,9 @@
   <view class='word' style='padding-right:50rpx;'>星球移民</view>
 </view>
 
-<view class="block" style='margin-top:40rpx;'>
-  <view class='pancel_img'><image src='../../icons/钱包.png' class='pancel'></image></view>
-  <view class='word'>喜茶钱包</view>
-</view>
-<view class="block" style='margin-top:40rpx;'>
-  <view class='pancel_img'><image src='../../icons/钱包.png' class='pancel'></image></view>
-  <view class='word'>喜茶钱包</view>
-</view>
-<view class="block" style='margin-top:40rpx;'>
-  <view class='pancel_img'><image src='../../icons/钱包.png' class='pancel'></image></view>
-  <view class='word'>喜茶钱包</view>
+<view wx:for="{{pro}}">
+  <view class="block" style='margin-top:35rpx;'>
+    <view class='pancel_img'><image src="{{item.icon}}" class='pancel'></image></view>
+    <view class='word'>{{item.title}}</view>
+  </view>
 </view>

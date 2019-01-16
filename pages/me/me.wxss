@@ -1,7 +1,8 @@
 /* pages/me/me.wxss */
 .image {
   width: 100vw;
-    background: #DBE4EC;
+  background: #DBE4EC;
+  height: 400rpx;
 }
 .userImg
 {
@@ -92,7 +93,7 @@
   width: 50%;
 }
 .sec{
-    top: 300rpx;
+    top: 320rpx;
     font-weight:500;
 }
 .word{

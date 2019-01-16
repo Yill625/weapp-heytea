@@ -5,7 +5,12 @@ Page({
    * 页面的初始数据
    */
   data: {
-    
+    pro: [
+      { 'id': 1, 'icon':'../../icons/钱包.png','title':'喜茶钱包'},
+      { 'id': 1, 'icon': '../../icons/商城.png', 'title': '积分商城' },
+      { 'id': 1, 'icon': '../../icons/我的订单.png', 'title': '历史订单' },
+      { 'id': 1, 'icon': '../../icons/资料库.png', 'title': '我的资料' },
+      ]
   },
 
   /**
