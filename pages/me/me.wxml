@@ -2,7 +2,7 @@
 <view class="image-parent">
   <image class='image' mode='widthFix' src=''></image>
   <view class="row child">
-    <image class='userImg' src='http://liangblog.oss-cn-hangzhou.aliyuncs.com/2018/03/cropped-20180306142736.png'></image>
+    <image class='userImg' src='http://liangblog.oss-cn-hangzhou.aliyuncs.com/2019/01/WechatIMG68.jpeg'></image>
       <view class="name">Ivan</view>
       <view class="level">Lv2</view>
       <view class="title">白银会员</view>
@@ -19,7 +19,7 @@
     </view>
 
 </view>
-<image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1547654258445&di=c0659d2ae76fcc7a31b8845bd7b24c7b&imgtype=0&src=http%3A%2F%2Fpic42.photophoto.cn%2F20170314%2F0470102533396103_b.jpg' class='ad_banner'></image>
+<image src='http://liangblog.oss-cn-hangzhou.aliyuncs.com/2019/01/timg.jpeg' class='ad_banner'></image>
 
 <view class="star stars">
   <view class='integral' style='padding-left:50rpx;'><image src='../../icons/星球.png'></image></view>
