@@ -1,0 +1,10 @@
+<!--logs.wxml-->
+<view class="container">
+  <view class='noOrder'>
+    <view class='text'>
+      <view class='text_content'>您今天还没有下单</view>
+      <view class='text_content'>快去选一杯喜欢的茶吧</view>
+    </view>
+    <button class='button'>去点单</button>
+  </view>
+</view>
