@@ -13,7 +13,8 @@
       "disableScroll": true
   },
   "tabBar": {
-    "selectedColor": "black",
+    "selectedColor": "#2c2c2c",
+    "color":"#bfbfbf",
     "list": [
       {
         "pagePath": "pages/index/index",

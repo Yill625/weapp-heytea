@@ -1,1 +1,48 @@
 /* pages/me/me.wxss */
+.image {
+  width: 100vw;
+}
+.userImg
+{
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+  margin-right: 10rpx;
+}
+.image-parent {
+  position: relative;
+}
+.name
+{
+  line-height: 38rpx;
+  margin-bottom: 30rpx;
+  font-size: 38rpx;
+}
+.level
+{
+  height: 28rpx;
+  color: #fff;
+  line-height: 22rpx;
+  font-size: 22rpx;
+  background: #000;
+  border-radius: 14rpx;
+}
+.child {
+  width: 250rpx;
+  height: 250rpx;
+  position: absolute;
+  left: 40rpx;
+
+  display: flex;
+  text-align: center;
+}
+.child1{
+  width: 250rpx;
+  height: 250rpx;
+  position: absolute;
+  right: 0;
+  text-align: center;
+}
+.row{
+    top: 40rpx;
+}

@@ -1,2 +1,15 @@
 <!--pages/me/me.wxml-->
-
+<view class="image-parent">
+  <image class='image' mode='widthFix' src='http://liangblog.oss-cn-hangzhou.aliyuncs.com/2019/01/微信截图_20190116135200.png'></image>
+  <view class="row child">
+    <image class='userImg' src='http://liangblog.oss-cn-hangzhou.aliyuncs.com/2018/03/cropped-20180306142736.png'></image>
+    <view class='userInfo'>
+      <view class="name">ivan</view>
+      <view class="level">Lv2</view>
+    </view>
+  </view>
+    <view class="row child1">
+      <view class="name">白银会员</view>
+      <view class="level">9经验升级下一级111111</view>
+  </view>
+</view>
