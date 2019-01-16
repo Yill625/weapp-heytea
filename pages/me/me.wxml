@@ -1,15 +1,44 @@
 <!--pages/me/me.wxml-->
 <view class="image-parent">
-  <image class='image' mode='widthFix' src='http://liangblog.oss-cn-hangzhou.aliyuncs.com/2019/01/微信截图_20190116135200.png'></image>
+  <image class='image' mode='widthFix' src=''></image>
   <view class="row child">
     <image class='userImg' src='http://liangblog.oss-cn-hangzhou.aliyuncs.com/2018/03/cropped-20180306142736.png'></image>
-    <view class='userInfo'>
-      <view class="name">ivan</view>
+      <view class="name">Ivan</view>
       <view class="level">Lv2</view>
+      <view class="title">白银会员</view>
+      <view class="experience">还差9经验升级下一级111111 ></view>
+  </view>
+
+    <view class="quantity">
+      <view class='integral'>847</view>
+      <view class='discount'>22</view>
     </view>
-  </view>
-    <view class="row child1">
-      <view class="name">白银会员</view>
-      <view class="level">9经验升级下一级111111</view>
-  </view>
+    <view class="quantity sec">
+      <view class='word'>积分</view>
+      <view class='word'>喜茶券</view>
+    </view>
+
+</view>
+<image src='http://liangblog.oss-cn-hangzhou.aliyuncs.com/2019/01/d13cc048707e64795485842f4c603a03-1.png' class='ad_banner'></image>
+
+<view class="star stars">
+  <view class='integral' style='padding-left:50rpx;'><image src='../../icons/星球.png'></image></view>
+  <view class='integral' style='padding-right:50rpx;'><image src='../../icons/宇宙星球.png'></image></view>
+</view>
+<view class="star stars">
+  <view class='word' style='padding-left:50rpx;'>星球俱乐部</view>
+  <view class='word' style='padding-right:50rpx;'>星球移民</view>
+</view>
+
+<view class="block" style='margin-top:40rpx;'>
+  <view class='pancel_img'><image src='../../icons/钱包.png' class='pancel'></image></view>
+  <view class='word'>喜茶钱包</view>
+</view>
+<view class="block" style='margin-top:40rpx;'>
+  <view class='pancel_img'><image src='../../icons/钱包.png' class='pancel'></image></view>
+  <view class='word'>喜茶钱包</view>
+</view>
+<view class="block" style='margin-top:40rpx;'>
+  <view class='pancel_img'><image src='../../icons/钱包.png' class='pancel'></image></view>
+  <view class='word'>喜茶钱包</view>
 </view>

@@ -1,48 +1,141 @@
 /* pages/me/me.wxss */
 .image {
   width: 100vw;
+    background: #DBE4EC;
 }
 .userImg
 {
   width: 120rpx;
   height: 120rpx;
   border-radius: 50%;
-  margin-right: 10rpx;
-}
-.image-parent {
-  position: relative;
+  top: 50rpx;
+  left: 50rpx;
+  position: absolute;
+
 }
 .name
 {
   line-height: 38rpx;
-  margin-bottom: 30rpx;
   font-size: 38rpx;
+  top: 60rpx;
+  left: 180rpx;
+  position: absolute;
+  font-weight:600
 }
 .level
 {
-  height: 28rpx;
+  height: 36rpx;
   color: #fff;
-  line-height: 22rpx;
+  line-height: 36rpx;
   font-size: 22rpx;
-  background: #000;
-  border-radius: 14rpx;
-}
-.child {
-  width: 250rpx;
-  height: 250rpx;
+  background:#343434;
+  border-radius: 18rpx;
+  padding: 2rpx;
+  width: 100rpx;
+  top: 120rpx;
+  left: 180rpx;
   position: absolute;
-  left: 40rpx;
+  text-align: center;
+}
 
-  display: flex;
-  text-align: center;
-}
-.child1{
-  width: 250rpx;
-  height: 250rpx;
+.title
+{
+  line-height: 38rpx;
+  font-size: 38rpx;
+  top: 60rpx;
+  right: 50rpx;
   position: absolute;
-  right: 0;
+  font-weight:600
+}
+.experience
+{
+  height: 36rpx;
+  color: #848587;
+  line-height: 36rpx;
+  font-size: 22rpx;
+  background: #E6ECF2;
+  border-radius: 18rpx;
+  padding: 2rpx;
+  width: 320rpx;
+  top: 120rpx;
+  right: 50rpx;
+  position: absolute;
   text-align: center;
 }
-.row{
-    top: 40rpx;
+.image-parent {
+  position: relative;
+}
+
+
+.child {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.quantity{
+  width: 100%;
+  position: absolute;
+  top: 250rpx;
+  display: flex;
+   text-align: center;
+   font-weight:600;
+   color:#343434;
+}
+.integral
+{
+  font-size: 45rpx;
+  width: 50%;
+}
+.discount{
+  font-size: 45rpx;
+  width: 50%;
+}
+.sec{
+    top: 300rpx;
+    font-weight:500;
+}
+.word{
+  width: 50%;
+  font-weight:400;
+  /* font-size: 34rpx; */
+  
+}
+.ad_banner{
+  margin-top: 20rpx;
+  margin-left: 6%;
+  width: 88%;
+  height: 140rpx;
+}
+.star
+{
+  width: 100%;
+  position: relative;
+  display: flex;
+   text-align: center;
+   color:#343434;
+}
+.star image
+{
+width: 96rpx;
+height: 96rpx;
+}
+.pancel_img
+{
+  padding-left: 6%;
+  margin-right: 50rpx;
+}
+.pancel{
+  width: 64rpx;
+height: 64rpx;
+
+}
+.block
+{
+  display: flex;
+  width: 100%;
+}
+.block .word
+{
+  padding-top: 6rpx;
 }
